@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script
+      src="https://kit.fontawesome.com/baa7d5937a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://www.bing.com/th?id=OIP.bf_Um5shxy9Snj8HbRR0ZAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+
+</head>
+<body>
+    <main>
+      <div id="box1">
+        <div id="name">
+          <h1><i class="fa-solid fa-clipboard-check"></i> To do lists!</h1>
+        </div>
+      </div>
+      <div id="box2">
+        <div id="today-task">
+          <h2>Today's Tasks</h2>
+        </div>
+        <div id="add-task">
+          <div class="search-form">
+            <input
+              id="inp"
+              class="input-search-bar"
+              type="text"
+              placeholder="Write Something Here..."  
+            />
+            <button id="btn" class="input-search-bar" type="button">
+              Add
+            </button>
+          </div>
+          <div id="countbox">
+              <div id="countboxpart">
+                <small id="small">Total: <small id="count">0</small> </small>
+              </div>   
+          </div>
+        </div>
+        <div id="task-box">
+          <ul id="list"></ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
